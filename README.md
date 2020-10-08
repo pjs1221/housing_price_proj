@@ -72,5 +72,5 @@ The out-of-sample error for all models was greater than the in-sample error. SVM
 The error of the Random Forest also followed a relatively normal distribution as can be seen below.
 
 <p float="left">
-  <img src="EDA_Images/rf_error_dist.png" width="600" />
+  <img src="EDA_Images/rf_error_dist.png" width="400" />
 </p>
