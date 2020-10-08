@@ -83,10 +83,10 @@ from sklearn.model_selection import RandomizedSearchCV
 
 param_grid = {
     'bootstrap': [True],
-    'max_depth': [80, 90, 100, 110],
-    'max_features': [2, 3],
-    'min_samples_leaf': [3, 4, 5],
-    'min_samples_split': [8, 10, 12],
+    'max_depth': [10,20,30,40,50,60,70,80, 90, 100, 110],
+    'max_features': ['auto', 'sqrt', 'log2'],
+    'min_samples_leaf': [1,2,3, 4],
+    'min_samples_split': [2,4,6,8],
     'n_estimators': [100, 200, 300, 1000]
 }
 
